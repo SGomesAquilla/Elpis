@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(images/background1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:fixed ;
+    background-size: auto;
+}
+
+.menu {
+    background-color: rgba(255, 255, 255, 0.962);
+}
+
+.titleHeader {
+    margin: 5%;
+    width: 80%;
+    padding-inline:  6%;
+    background-image: url(images/background2.png);
+    border: solid black;
+    border-width: 3px;
+    border-radius: 1%;
+    align-items: center;
+    text-align: center;
+}
+
+.titleHeader h1 {
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5),
+               2px 2px 2px rgba(255, 255, 255, 0.3),
+               3px 3px 3px rgba(255, 255, 255, 0.2),
+               4px 4px 4px rgba(255, 255, 255, 0.1);
+    font-size: 2.5em;
+    margin-top: 20px;
+    font-family: "Chakra Petch", 'Times New Roman', Times, serif;
+}
+
+.titleHeader h2 {
+    font-style: italic;
+}
+
+.navButton {
+    font-family: inherit, serif, sans-serif;
+    font-weight: 549;
+    font-size: 80%;
+    display: inline-block;
+    align-items: center;
+    padding-inline: 1%;
+    margin-bottom: 1%;
+    margin-inline: 2%;
+    text-decoration: none;
+    transition-duration: 500ms;
+}
+
+.navButton:hover {
+    filter: brightness(110%);
+    transition-duration: 500ms;
+}
+
+.navIconR {
+    margin-left: 15%;
+    width: 23px;
+    height: 23px;
+    flex-shrink: 0;
+}
+
+.navIconS {
+    margin-left: 1%;
+    width: 35px;
+    height: 32px;
+    flex-shrink: 0;
+}
+
+.navIconC {
+    margin-left: 20%;
+    width: 29px;
+    height: 26px;
+    flex-shrink: 0;
+}
+
+.navIconR:hover {
+    filter: invert(20%);
+}
+
+.navIconC:hover {
+    filter: invert(20%);
+}
+
+.navIconS:hover {
+    filter: invert(20%);
+}
+
+.elpisL {
+    width: 50px; 
+    height: 50px;
+    margin-right: 20%;
+    margin-left: 2%;
+    margin-top: 2px;
+}
+
+.elpisL a{
+    margin: 0;
+}
+
+a {
+    color: black;
+}
+  
+a:visited {
+    color: black;
+}
+  
+a:hover {
+    color: black;
+}
+  
+a:active {
+    color: none;
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+header h2 {
+    margin: 5%;
+}
+
+.selectorSection li {
+    margin-top: 10%;
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+}
+
+.selectorSection img {
+    border-radius: 10%;
+    filter: brightness(60%);
+    width: 30%;
+    transition-duration: 200ms;
+}
+
+.selectorSection img:hover {
+    width: 35%;
+    filter: brightness(100%);
+    transition-duration: 500ms;
+}
+
+.selectorSection p {
+    background-color: rgb(230, 230, 230);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    display: flexbox;
+    font-size: 17px;
+    color: black;
+    font-weight: 600;
+    margin-top: 5%;
+    margin-inline: 5%;
+    width: 80%;
+    padding-inline:  2%;
+    align-items: center;
+    text-align:justify;
+    border: solid black;
+    border-width: 3px;
+    padding: 2%;
+}
+
+footer a {
+    font-style: none;
+}
+
+footer {
+    justify-content: center;
+    padding: 1%;
+    margin-bottom: 5%;
+    margin-top: 80%;
+    background-color: #00000034; 
+    text-align: center; 
+    width: 100%; 
+    font-size: 1rem; 
+}
+
+footer img {
+    margin-inline: 3%;
+    max-width: 10%;
+    width: 10%;
+    position: relative;
+    left: 30%;
+}
+
+footer img:hover {
+    width: 15%;
+    filter: brightness(120%);
+    transition-duration: 500ms;
+}
+
+footer ul {
+    list-style: none;
+    padding-top: 2%;
+    padding-right: 40%;
+}
