@@ -4,11 +4,11 @@
 }
 
 body {
-    background-image: url(images/background1.png);
+    background-image: url(images/background.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment:fixed ;
-    background-size: auto;
+    background-size: cover;
 }
 
 hr {
@@ -62,11 +62,12 @@ hr {
     margin-top: 5%;
     margin-bottom: 5%;
     background-color:rgba(248, 238, 224, 0.927);
-    border-radius: 3%;
+    border-radius: 5%;
     border: solid black 2px;
     padding: 3%;
     font-size: 17px;
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.753);
+    margin-bottom:30% ;
 
 }
 
@@ -88,7 +89,21 @@ hr {
     padding: 2px;
 }
 
-.navButton {
+nav button {
+    border: #bcd2e800;
+    border-radius: 10%;
+    background-color: #f0f0f000;
+    margin-inline: 5%;
+    cursor: pointer;
+    align-items: center;
+    padding: 1%;
+}
+
+nav button:hover {
+    background-color: #cac9c939;
+}
+
+/* .navButton {
     font-family: inherit, serif, sans-serif;
     font-size: 90%;
     display: inline-block;
@@ -98,7 +113,7 @@ hr {
     margin-inline: 2%;
     text-decoration: none;
     transition-duration: 500ms;
-}
+} */
 
 .navButton:hover {
     filter: brightness(110%);
@@ -326,4 +341,31 @@ footer ul {
 .result-list a:hover {
     transition-duration: 200ms;
     color: rgb(55, 55, 55);
+}
+
+.merchandise {
+    padding-inline: 20%;
+}
+
+.merchandise p{
+    text-align:left;
+    position: relative;
+    left: 40%;
+    bottom: 60px;
+}
+
+.merchandise img{
+    cursor: pointer;
+    position: relative;
+    right: 20%;
+    top: 100px;
+    width: 50%;
+    border-radius: 20px;
+    transition-duration: 450ms;
+}
+
+.merchandise img:hover {
+    filter: brightness(120%);
+    transition-duration: 500ms;
+    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.392);
 }
