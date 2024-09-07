@@ -1,56 +1,72 @@
 <!DOCTYPE html>
-<html lang= 'eng'>
+<html lang="eng">
 <head>
-    <title>Elpis</title>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="Style.css">
+  <title>Elpis</title>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="Style.css">
 </head>
 <body>
-    <div class="background">
-        <header>
-            <div class="menu">
-                <nav>
-                  <a href=""><img class="elpisL" src="images/elpisLogo.png" alt="Home"></a>
-                    <a class="navButton" href="">
-                      <img class="navIconR" src="images/bibleLogo.png" alt="Reading">  Reading
-                    </a>
-                    <a class="navButton" href="">
-                      <img class="navIconS" src="images/songLogo.png" alt="Songs">  Songs
-                    </a>
-                    <a class="navButton" href="">
-                      <img class="navIconC" src="images/communityLogo.png" alt="Community">  Community
-                    </a>
-                  </nav>
-            </div>
-            <div class="titleHeader">
-                <h1>Renew your mind with your daily dose of hope</h1>
-                <h2>"be able to test and approve what God’s will is—his good, pleasing and perfect will." - Romans 12:2 </h2>
-            </div>
-        </header>
-        <main>
-          <section class="selectorSection">
-            <ul>
-              <li>
-                <a target="_blank" href="https://www.youtube.com/watch?v=K_dokTLm4Jg"><img src="https://i.ytimg.com/vi/K_dokTLm4Jg/hqdefault.jpg"></a>
-                <a target="_blank" href="https://www.youtube.com/watch?v=s3TZI4juMIQ"><img src="https://i.ytimg.com/vi/s3TZI4juMIQ/hqdefault.jpg"></a>
-                <a target="_blank" href="https://www.youtube.com/watch?v=pb4KwPKJoFM&list=OLAK5uy_me_gi96EgJwULWsiI3r2LdWtPAV_GHmJw"><img src="https://i.ytimg.com/vi/pb4KwPKJoFM/hqdefault.jpg"></a>
-              </li>
-            </ul>
-            <p>
-              In the midst of the hustle and bustle of everyday life, take a moment to connect with God through music. Our music section reveals to you the latest and most popular songs, hymns, and tunes that touch the heart and inspire faith.
-            </p>
-          </section>
-        </main>
-        <footer>
-          © 2024 |Todos os direitos reservados | Termos de Uso | Desenvolvido por Áquilla Siqueira Gomes | Para mais detalhes entre em contato:
-            <ul>
-              <li>
-                <a target="_blank" href="https://www.linkedin.com/in/%C3%A1quilla-gomes-7874582aa/"><img src="images/linkedinLogo.png" alt="linkedin"></a>
-                <a target="_blank" href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJfrKnGhGpshJxsHHqvFlsxxDFPJHCXfNrDGpMNxlsQThSHXmgVSZsCBQkjTrLrxXsTQkSV"><img alt="gmail" src="images/gmailLogo.png"></a>
-                <a target="_blank" href="https://github.com/SGomesAquilla"><img alt="github" src="images/githubLogo.png"></a>
-              </li>
-            </ul>
-        </footer>
+  <header>
+    <div class="menu">
+      <nav>
+        <a href=""><img class="elpisL" src="images/elpisLogo.png" alt="Home"></a>
+        <button class="navButton" onclick="buttonreading()">
+          <img class="navIconR" src="images/bibleLogo.png" alt="Reading"> Reading
+        </button>
+        <button class="navButton" onclick="buttonsong()">
+          <img class="navIconS" src="images/songLogo.png" alt="Songs"> Songs
+        </button>
+        <button class="navButton" onclick="buttoncommunity()">
+          <img class="navIconC" src="images/communityLogo.png" alt="Community"> Community
+        </button>
+      </nav>
     </div>
+  </header>
+
+  <main id="page">
+    <div class="titleHeader">
+      <h1>Renew your mind with your daily dose of hope</h1>
+      <h2>"be able to test and approve what God’s will is—his good, pleasing and perfect will." - Romans 12:2 </h2>
+    </div>
+    <section class="maintext">
+      <p><h2>"Elpis: Your Spiritual Companion</h2><h4>Elpis is designed to be your go-to app for deepening your connection with God. Whether you're working, taking a break, or simply seeking spiritual nourishment, Elpis offers a variety of features to support your faith journey.</p></h4>
+      <p><h2>Key Features:</h2><h4>
+        <ul>
+          <li>
+            Online Bible: Access and read your favorite biblical texts directly from the app.
+          </li>
+          <li>
+            Daily Devotions: Follow daily devotional plans to guide your reflection and prayer.
+          </li>
+          <li>
+            In-Depth Study: Explore God's Word through Bible studies and commentaries.
+          </li>
+          <li>
+            Music Library: Listen to uplifting Christian music to inspire and uplift your spirit.
+          </li>
+          <li>
+            Community Connection: Connect with like-minded individuals in our online community and find local churches or study groups
+          </li>
+        </ul>
+        <p>
+          <h2>
+            Furthermore, God bless my friend !
+          </h2>
+        </p>
+    </section>
+  </main>
+  <footer>
+    © 2024 |Todos os direitos reservados | Termos de Uso | Desenvolvido por Áquilla Siqueira Gomes | Para mais detalhes entre em contato:
+    <ul>
+      <li>
+        <a target="_blank" href="https://www.linkedin.com/in/%C3%A1quilla-gomes-7874582aa/"><img src="images/linkedinLogo.png" alt="linkedin"></a>
+        <a target="_blank" href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJfrKnGhGpshJxsHHqvFlsxxDFPJHCXfNrDGpMNxlsQThSHXmgVSZsCBQkjTrLrxXsTQkSV"><img alt="gmail" src="images/gmailLogo.png"></a>
+        <a target="_blank" href="https://github.com/SGomesAquilla"><img alt="github" src="images/githubLogo.png"></a>
+      </li>
+    </ul>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
