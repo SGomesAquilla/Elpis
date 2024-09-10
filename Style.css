@@ -103,18 +103,6 @@ nav button:hover {
     background-color: #cac9c939;
 }
 
-/* .navButton {
-    font-family: inherit, serif, sans-serif;
-    font-size: 90%;
-    display: inline-block;
-    align-items: center;
-    padding-inline: 1%;
-    margin-bottom: 1%;
-    margin-inline: 2%;
-    text-decoration: none;
-    transition-duration: 500ms;
-} */
-
 .navButton:hover {
     filter: brightness(110%);
     transition-duration: 500ms;
@@ -202,7 +190,7 @@ header h2 {
     filter: brightness(60%);
     width: 30%;
     transition-duration: 200ms;
-    filter: blur(0.5px);
+    filter: blur(0.6px);
 }
 
 .selectorSection img:hover {
