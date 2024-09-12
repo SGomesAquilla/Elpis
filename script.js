@@ -123,7 +123,7 @@ function searchResultR() {
         const listItem = document.createElement('li');
         listItem.innerHTML = `
           <h2>
-            <a href="google.com" target="_blank">${searchInfo.title}</a>
+            <a href="${searchInfo.link}" target="_blank">${searchInfo.title}</a>
           </h2>
           <h3>
             <p>${searchInfo.theme}</p>
@@ -156,7 +156,7 @@ function searchResultS() {
         const listItem = document.createElement('li');
         listItem.innerHTML = `
           <h2>
-            <a href="google.com" target="_blank">${searchInfo.title}</a>
+            <a href="${searchInfo.link}" target="_blank">${searchInfo.title}</a>
           </h2>
           <h3>
             <p>${searchInfo.autor}</p>
@@ -171,7 +171,7 @@ function searchResultS() {
     }
 }
 
-function register() {
+function register() { //for now, just presentetional
 
     const resultList = document.querySelector('.result-list');
     resultList.innerHTML = '';
