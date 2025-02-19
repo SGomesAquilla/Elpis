@@ -4,24 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./form_style.css">
 </head>
 <body>
-    <h1 id="title">Page Title</h1>
+    <header id="title"><h1>Page Title</h1></header>
     <p id="description">short explanation of the page</p>
     <form id="survey-form">
         <fieldset>
             <div id="form-group">
-                <labe id="name-label">
-                    Enter Your Name: <input placeholder="Type Your Name and Surname" id="name" type="text">
+                <label id="name-label">
+                    Name: <input required placeholder="Type Your Name and Surname" id="name" type="text">
+                </label>
+                <label id="age-label">
+                    Age: <input required placeholder="Also Type Your Country and State Prefix All Toghether" id="number" type="number" min="13" max="120">
                 </label>
                 <label id="email-label">
-                    Enter Your Email: <input placeholder="Type Your Email Adress" id="email" type="email">
-                </label>
-                <label id="phone-label">
-                    Enter Your Phone Number: <input placeholder="Also Type Your Country and State Prefix All Toghether" id="number" type="tel" minlength="9" maxlength="13">
+                    Email: <input required placeholder="Type Your Email Adress" id="email" type="email">
                 </label>
             </div>
+            <div id="form-group">
+                <select id="dropdown">
+                    <option>op1</option>
+                    <option>op2</option>
+                </select>
+            </div>
+            <div id="form-group">
+                <!-- <button type="menu"></button> -->
+                <input type="radio" name="radio"> op1
+                <input type="radio" name="radio"> op2
+            </div>
+            <div id="form-group">
+                <label>
+                    <input type="checkbox" value="1"> 1
+                </label>
+                <label>
+                    <input type="checkbox" value="2"> 2
+                </label>
+                <label>
+                    <input type="checkbox" value="3"> 3
+                </label>
+                <label>
+                    <input type="checkbox" value="4"> 4
+                </label>
+                <label>
+                    <input type="checkbox" value="5"> 5
+                </label>
+            </div>
+            <div id="form-group">
+                <p>textarea</p>
+                <textarea></textarea>
+            </div>
+            <button id="submit">Submit</button>
         </fieldset>
     </form>
+    <footer></footer>
+    <script></script>
 </body>
 </html>

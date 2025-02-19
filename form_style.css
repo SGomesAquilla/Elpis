@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, #description {
+    text-align: center;
+}
+
+#survey-form {
+    width: 65%;
+    margin: auto;
+}
+
+fieldset {
+    padding: 2%;
+    border-radius: 12px;
+}
+
+#form-group {
+    margin-top: 30px;
+}
+
+label {
+    display: flex;
+    margin-left: 20px;
+}
