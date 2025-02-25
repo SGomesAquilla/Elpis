@@ -1,3 +1,11 @@
+**CHANGES TASK-LIST**
+** - add vue.js to the project**
+** - use templates instead of inserting html through javascript**
+** - fetch Bible API**
+** - make the necessary changes/pages/section etc for properly reading bible throug the app**
+** - make a better formulary page. Make it possible to at least send or receive data**
+** - create hamburger menu**
+
 https://elpis-sepia.vercel.app/
 
 Elpis: A Spiritual App - README This is the README file for Elpis, a web application designed to be your go-to companion for deepening your connection with God.
