@@ -373,3 +373,8 @@ footer ul {
         transform: rotateX(0);
     }
 }
+
+form {
+    display: flex;
+    justify-content: center;
+}
