@@ -1,12 +1,4 @@
-**CHANGES TASK-LIST**
-** - add vue.js to the project**
-** - use templates instead of inserting html through javascript**
-** - fetch Bible API**
-** - make the necessary changes/pages/section etc for properly reading bible throug the app**
-** - make a better formulary page. Make it possible to at least send or receive data**
-** - create hamburger menu**
-
-https://elpis-sepia.vercel.app/
+you can see and test it by clicking this link: https://elpis-sepia.vercel.app/
 
 Elpis: A Spiritual App - README This is the README file for Elpis, a web application designed to be your go-to companion for deepening your connection with God.
 
@@ -21,3 +13,5 @@ Project Structure:
 index.html: The main HTML file for the application. Style.css: Contains all the CSS styles for the app's layout and design. script.js: Handles JavaScript functionalities for button clicks, content changes and search information withing data stored. data.js: This file contains all the data and information needed for the search functionalities. images: Folder containing all images used in the app (logos, backgrounds, etc.)
 
 Still developing and improving this project. The signup form in the community section is, for now, only presentational and don't have actual functionality to collect and store data.
+
+Currently designing changes and upgrades on this new repository: https://github.com/SGomesAquilla/Elpis2.0
